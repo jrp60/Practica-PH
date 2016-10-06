@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>ZULO - Solicitud de álbum</title>
+</head>
+<body>
+  <header>
+    <div>
+      <img src="">
+    </div>
+    <div>
+  <a href="menu.html">Perfil</a>
+</div>
+    <nav>
+      <ul>
+        <li>
+          <a href="Inicio.html">Inicio</a>
+        </li>
+        <li><a href="Registro.html">Registro</a></li>
+        <li><a href="Busqueda.html">Busqueda</a></li>
+      </ul>
+</nav>
+  </header>
+
+  <hr>
+
+<aside>
+  <table>
+    <tr>
+      <td>Concepto </td>
+      <td>Tarifa</td>
+    </tr>
+    <tr>
+      <td>menos de 5 paginas</td>
+      <td>10 centimos por pagina</td>
+    </tr>
+    <tr>
+      <td>entre 5 y 10 paginas</td>
+      <td>8 centimos por pagina</td>
+    </tr>
+    <tr>
+      <td>mas de 11 paginas</td>
+      <td>7 centimos por pagina</td>
+    </tr>
+    <tr>
+      <td>Blanco y negro</td>
+      <td>0 euros</td>
+    </tr>
+    <tr>
+      <td>Color</td>
+      <td>5 centimos por foto</td>
+    </tr>
+    <tr>
+      <td>Resolucion mayor a 300</td>
+      <td>2 centimos por foto</td>
+    </tr>
+  </table>
+</aside>
+
+<section>
+  <h2>Solicitud de Impresión de Album</h2>
+  <p>
+    En esta opcición puedes solicitar la impresión y envio de uno de tus albumes a todo color, toda resolución..
+  </p>
+  <form action="respuesta_album.html">
+    <label for="nick">Nombre</label>
+    <input type="text" name="nick" value="MiNombre" id="nick" placeholder="Introduzca su nombre"><a>
+      (*)
+    </a>
+    <br>
+    <label for="apellidos">Apellidos</label>
+    <input type="text" name="Apellidos" value="Mis Apellidos" id="apellidos" placeholder="Introduzca sus Apellidos">
+    <a>
+      (*)
+    </a><br>
+    <label for="adicional">Texto Adicional</label>
+    <input type="text" name="adicional" id="adicional" placeholder="dedicatoria, descrición..">
+    <br>
+    <label for="email">Dirección Correo</label>
+    <input type="email" name="email" id="email" value="ejemplo@gmail.com"><a>
+      (*)
+    </a>
+    <br>
+    <label for="direccion">Dirección</label>
+    <input type="text" name="dirección" placeholder="Calle" id="direccion">
+    <input type="text" name="dirección"placeholder="Numero">
+    <input type="text" name="dirección" placeholder="Cod. Postal">
+    <input type="text" name="dirección" placeholder="Localidad">
+    <select name="provincia">
+	<option value='2' selected>Álava</option>
+	<option value='3'>Albacete</option>
+	<option value='4'>Alicante/Alacant</option>
+	<option value='5'>Almería</option>
+	<option value='6'>Asturias</option>
+	<option value='7'>Ávila</option>
+	<option value='8'>Badajoz</option>
+	<option value='9'>Barcelona</option>
+	<option value='10'>Burgos</option>
+	<option value='11'>Cáceres</option>
+	<option value='12'>Cádiz</option>
+	<option value='13'>Cantabria</option>
+	<option value='14'>Castellón/Castelló</option>
+	<option value='15'>Ceuta</option>
+	<option value='16'>Ciudad Real</option>
+	<option value='17'>Córdoba</option>
+	<option value='18'>Cuenca</option>
+	<option value='19'>Girona</option>
+	<option value='20'>Las Palmas</option>
+	<option value='21'>Granada</option>
+	<option value='22'>Guadalajara</option>
+	<option value='23'>Guipúzcoa</option>
+	<option value='24'>Huelva</option>
+	<option value='25'>Huesca</option>
+	<option value='26'>Illes Balears</option>
+	<option value='27'>Jaén</option>
+	<option value='28'>A Coruña</option>
+	<option value='29'>La Rioja</option>
+	<option value='30'>León</option>
+	<option value='31'>Lleida</option>
+	<option value='32'>Lugo</option>
+	<option value='33'>Madrid</option>
+	<option value='34'>Málaga</option>
+	<option value='35'>Melilla</option>
+	<option value='36'>Murcia</option>
+	<option value='37'>Navarra</option>
+	<option value='38'>Ourense</option>
+	<option value='39'>Palencia</option>
+	<option value='40'>Pontevedra</option>
+	<option value='41'>Salamanca</option>
+	<option value='42'>Segovia</option>
+	<option value='43'>Sevilla</option>
+	<option value='44'>Soria</option>
+	<option value='45'>Tarragona</option>
+	<option value='46'>Santa Cruz de Tenerife</option>
+	<option value='47'>Teruel</option>
+	<option value='48'>Toledo</option>
+	<option value='49'>Valencia/Valéncia</option>
+	<option value='50'>Valladolid</option>
+	<option value='51'>Vizcaya</option>
+	<option value='52'>Zamora</option>
+	<option value='53'>Zaragoza</option>
+</select>
+<a>
+  (*)
+<a>
+  <br>
+  <label for="telefono">Teléfono</label>
+  <input type="tel" name="telefono" value="" id="telefono">
+  <br>
+  <label for="color">Color</label>
+  <input type="color" name="color" value="black" id="color">
+  <br>
+  <label for="copias">Numero de copias</label>
+  <input type="number" name="copias" id="copias" value="1" min="1">
+  <br>
+  <label for="definicion">Definición</label>
+  <select name="definicion" id="definicion">
+    <option value="1"selected>150</option>
+    <option value="2">300</option>
+    <option value="3">450</option>
+    <option value="4">600</option>
+    <option value="5">750</option>
+    <option value="6">900</option>
+  </select>
+  <br>
+  <label for="misalbumes">Album de PI</lab>
+<select name="misalbumes" id="misalbumes">
+  <option value=""selected>mis albumes</option>
+
+</select>  <a>(*)</a> <br>
+<label for="fecha_recepcion">Fecha recepción</label>
+<input type="date" name="Fecha Recepcion" id="fecha_recepcion">
+<br>
+<label for="tipo">Tipo de Impresión</label>
+<input type="radio" name="tipo" value="" id="tipo">Color
+<input type="radio" name="tipo" value="" >Blanco y Negro
+<br><br>
+
+<input type="submit" name="terminar" value="Enviar Petición" >
+  </form>
+</section>
+
+<hr>
+  <footer>
+    <p>
+      Realizada por:
+    </p>
+    <ul>
+      <li>Pedro Zapata</li>
+      <li>Javier Rodenas</li>
+    </ul>
+    <p>
+      Correo de contacto
+      <a href="mailto:excarline@gmail.com">excarline@gmail.com</a>.
+    </p>
+  </footer>
+
+</body>
+</html>
