@@ -17,10 +17,10 @@
     <nav>
       <ul>
         <li>
-          <a href="Inicio.html">Inicio</a>
+          <a href="inicio.html">Inicio</a>
         </li>
-        <li><a href="Registro.html">Registro</a></li>
-        <li><a href="Busqueda.html">Busqueda</a></li>
+        <li><a href="registro.html">Registro</a></li>
+        <li><a href="busqueda.html">Busqueda</a></li>
       </ul>
 </nav>
   </header>
@@ -67,20 +67,19 @@
   </p>
   <form action="respuesta_album.html">
     <label for="nick">Nombre</label>
-    <input type="text" name="nick" value="MiNombre" id="nick" placeholder="Introduzca su nombre"><a>
+    <input type="text" name="nick"  id="nick" placeholder="Introduzca su nombre">
       (*)
     </a>
     <br>
     <label for="apellidos">Apellidos</label>
-    <input type="text" name="Apellidos" value="Mis Apellidos" id="apellidos" placeholder="Introduzca sus Apellidos">
-    <a>
+    <input type="text" name="Apellidos" id="apellidos" placeholder="Introduzca sus Apellidos">
       (*)
     </a><br>
     <label for="adicional">Texto Adicional</label>
-    <input type="text" name="adicional" id="adicional" placeholder="dedicatoria, descrición..">
+    <textarea name="adicional" id="adicional" max="4000" placeholder="dedicatoria, descrición.."> </textarea>
     <br>
     <label for="email">Dirección Correo</label>
-    <input type="email" name="email" id="email" value="ejemplo@gmail.com"><a>
+    <input type="email" name="email" id="email" value="ejemplo@gmail.com">
       (*)
     </a>
     <br>
@@ -143,9 +142,7 @@
 	<option value='52'>Zamora</option>
 	<option value='53'>Zaragoza</option>
 </select>
-<a>
   (*)
-<a>
   <br>
   <label for="telefono">Teléfono</label>
   <input type="tel" name="telefono" value="" id="telefono">
@@ -169,8 +166,7 @@
   <label for="misalbumes">Album de PI</lab>
 <select name="misalbumes" id="misalbumes">
   <option value=""selected>mis albumes</option>
-
-</select>  <a>(*)</a> <br>
+</select>  (*)</a> <br>
 <label for="fecha_recepcion">Fecha recepción</label>
 <input type="date" name="Fecha Recepcion" id="fecha_recepcion">
 <br>
@@ -178,11 +174,9 @@
 <input type="radio" name="tipo" value="" id="tipo">Color
 <input type="radio" name="tipo" value="" >Blanco y Negro
 <br><br>
-
 <input type="submit" name="terminar" value="Enviar Petición" >
   </form>
 </section>
-
 <hr>
   <footer>
     <p>
@@ -197,6 +191,5 @@
       <a href="mailto:excarline@gmail.com">excarline@gmail.com</a>.
     </p>
   </footer>
-
 </body>
 </html>
